@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags for Bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/bootstrap-4.0.0.min.css">
+    <!-- MC History styles -->
+    <link rel="stylesheet" href="assets/sidenav.css">
+    <title>Bootstrap Navbar w/ Collapsing Sidenav</title>
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-md fixed-top font-weight-bold">
+        <a class="navbar-brand p-2" href="#">
+            Bootstrap SideNav
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        &nbsp;<i class="fas fa-home"></i>&nbsp; Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        &nbsp;<i class="fas fa-info-circle"></i>&nbsp; About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        &nbsp;<i class="fas fa-calendar-alt"></i>&nbsp; Events
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        &nbsp;<i class="fas fa-images"></i>&nbsp; Photos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        &nbsp;<i class="fab fa-youtube"></i>&nbsp; Videos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        &nbsp;<i class="fas fa-cog"></i>&nbsp; Support
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        &nbsp;<i class="fab fa-github"></i>&nbsp; Github
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        &nbsp;<i class="fas fa-sign-in-alt"></i>&nbsp; Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="sidenav"></nav>
+</header>
+
+<main class="bg-fullscreen">
+  <div class="overlay">
+    <div class="overlay-title">Responsive Navbar with Collapsing Sidenav</div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-light">&nbsp;<i class="fab fa-github"></i>&nbsp; Kat Grennan</span>
+  </div>
+</footer>
+
+<!-- Required script tags for Bootstrap -->
+<script src="assets/jquery-3.2.1.min.js"></script>
+<script src="assets/popper-1.12.9.min.js"></script>
+<script src="assets/bootstrap-4.0.0.min.js"></script>
+<!-- Sidenav Scripts-->
+<script src="assets/sidenav.js"></script>
+</body>
+
+</html>
