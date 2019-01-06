@@ -1,7 +1,30 @@
+/*///////////////////// ESSENTIAL STYLES ////////////////////////*/
+
 html, body {
   height: 100%;
   overflow-x: hidden;
 }
+
+.sidenav {
+  position: absolute;
+  right: 0;
+  width: 0px;
+  display: none;
+  z-index: 999;
+  background: transparent;
+  box-shadow: -10px 10px 512px 256px #000000cc;
+  transition: .5s;
+  /* .flex-column */
+  -webkit-box-orient: vertical!important;
+  -webkit-box-direction: normal!important;
+  -ms-flex-direction: column!important;
+  flex-direction: column!important;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+
+/*////////////////////// OPTIONAL STYLES ////////////////////////*/
 
 .bg-fullscreen {
   background-image: url(canyon-min.jpg);
@@ -37,31 +60,15 @@ html, body {
 .navbar {
   box-shadow: 0px 0px 10px 2px #000000ad;
 }
-.navbar a {
+.nav-link {
   color: white;
   text-align: center;
   transition: .3s;
 }
-.navbar a:hover {
+.nav-link:hover {
+  color: white;
   box-shadow: 0px 0px 4px 1px #ffffff85;
   text-shadow: 0px 0px 1px white;
-}
-
-.sidenav {
-  position: absolute;
-  right: 0;
-  width: 0px;
-  display: none;
-  z-index: 999;
-  /* background-color: #000000cc!important; */
-  background: transparent;
-  box-shadow: -10px 10px 512px 256px #000000cc;
-  transition: .5s;
-  /* .flex-column */
-  -webkit-box-orient: vertical!important;
-  -webkit-box-direction: normal!important;
-  -ms-flex-direction: column!important;
-  flex-direction: column!important;
 }
 
 .navbar-toggler {
@@ -99,4 +106,15 @@ html, body {
 
 .fa, .fab, .fal, .far, .fas {
   font-size: 1.25rem;
+}
+
+.btn-outline-light {
+  border: none;
+}
+.btn-outline-light:hover {
+  color: white;
+  border-radius: 0px;
+  background: transparent;
+  box-shadow: 0px 0px 4px 1px #ffffff85;
+  text-shadow: 0px 0px 1px white;
 }
